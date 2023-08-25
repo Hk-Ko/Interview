@@ -5,8 +5,8 @@ const App = () => {
   return (
     <div className="flex flex-col gap-5">
       <div className="mb-5">
-        <div className="w-full h-full fixed top-0">
-          <h1 className="text-center text-4xl font-bold text-red-600">
+        <div className="w-full h-full fixed top-0 ">
+          <h1 className="text-center text-4xl font-bold text-red-600 bg-white px-3 py-1">
             TO STUDY EVERYDAY
           </h1>
         </div>
