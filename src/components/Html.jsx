@@ -153,4 +153,97 @@ export const QAs = [
     question: "what is difference between virtual DOM and real DOM ? ",
     answer: `The real DOM represents the actual structure of a web page, while the virtual DOM is a lightweight copy that React uses to improve efficiency and update only the necessary parts of the real DOM.`,
   },
+  {
+    id: 30,
+    question: "What is order function",
+    answer: `An "order" function typically refers to a function used to define the arrangement or sequence of elements in a collection, such as sorting them in a specific order.`,
+  },
+  {
+    id: 31,
+    question: "What is prototypes in javascript?",
+    answer: `Prototypes in JavaScript are a mechanism for sharing properties and methods between objects. Each object has a prototype, and objects can inherit properties and methods from their prototypes.`,
+  },
+  {
+    id: 32,
+    question: "What is keyword in javascript?",
+    answer: `Keywords in JavaScript are reserved words with special meanings and purposes in the language. They cannot be used as identifiers (variable names, function names, etc.).`,
+  },
+  {
+    id: 33,
+    question: "what is advantage and disadvantage of react? ",
+    answer: `Advantages of React:
+    - Efficient DOM updates via Virtual DOM.
+    - Component-based architecture for reusable code.
+    - Strong community and ecosystem.
+    - Improved performance with server-side rendering.
+    
+    Disadvantages of React:
+    - Initial learning curve.
+    - Tooling setup can be complex.
+    - JSX might seem unconventional.
+    - Frequent updates in libraries/frameworks.`,
+  },
+  {
+    id: 34,
+    question: "what is redux?",
+    answer: `Redux is a state management library for JavaScript applications, commonly used with React, to manage and centralize application state in a predictable and manageable way.`,
+  },
+  {
+    id: 35,
+    question: "Can component re-render without set state?",
+    answer: `Yes, components can re-render without using "setState" if their props change or if the parent component re-renders.Components can re-render due to changes in their props, even without using "setState":
+
+    1. **Props Change:** If a parent component passes new props to a child component, it can trigger a re-render in the child.
+    2. **Context Changes:** If a component consumes context, updates to the context can cause re-renders.
+    3. **Force Update:** Using the "forceUpdate" method, although it's not recommended and should be used sparingly.
+    4. **Parent Re-render:** If a parent component re-renders, its child components will also re-render, even if no props change.
+    
+    However, it's generally recommended to use state and props to manage re-renders in a controlled and predictable manner.`,
+  },
+  {
+    id: 36,
+    question: "what are the semantic types?",
+    answer: `Semantic types refer to the different meanings or categories of data in a programming context. Examples include strings, numbers, booleans, arrays, objects, and functions.`,
+  },
+  {
+    id: 37,
+    question:
+      "What is difference between position relative and position absolute? ",
+    answer: `"position: relative" positions an element relative to its normal position, while "position: absolute" positions an element relative to its nearest positioned ancestor or to the containing block.`,
+  },
+  {
+    id: 38,
+    question: "What is DOM?",
+    answer: `DOM (Document Object Model) is a programming interface for web documents. It represents the structure of a document as a tree of objects, allowing scripts to dynamically access and modify content and styles.`,
+  },
+  {
+    id: 39,
+    question: "what is hoisting in javascript?",
+    answer: `Hoisting in JavaScript refers to the behavior where variable and function declarations are moved to the top of their scope during compilation, allowing them to be accessed before they are declared in the code.`,
+  },
+  {
+    id: 40,
+    question: "what is call back hell?",
+    answer: `Callback hell, also known as the "pyramid of doom," refers to the situation in asynchronous programming where multiple nested callbacks make code difficult to read, maintain, and debug.`,
+  },
+  {
+    id: 41,
+    question: "",
+    answer: ``,
+  },
+  {
+    id: 42,
+    question: "",
+    answer: ``,
+  },
+  {
+    id: 43,
+    question: "",
+    answer: ``,
+  },
+  {
+    id: 44,
+    question: "",
+    answer: ``,
+  },
 ];
