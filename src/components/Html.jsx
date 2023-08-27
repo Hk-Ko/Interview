@@ -228,21 +228,100 @@ export const QAs = [
   },
   {
     id: 41,
-    question: "",
-    answer: ``,
+    question: "how many parameters are there in promise?",
+    answer: `Could you please provide more context or clarify what you're referring to by "parameters"? Are you asking about the number of parameters in a specific context, such as a function, a programming concept, or something else?`,
   },
   {
     id: 42,
-    question: "",
-    answer: ``,
+    question: "How many scopes are there in javascript?",
+    answer: `There are three main scopes in JavaScript: global scope, function scope, and block scope (introduced with "let" and "const" in ES6).`,
   },
   {
     id: 43,
+    question: "What is call,bind and apply?",
+    answer: `"call", "bind", and "apply" are methods in JavaScript used to manipulate the value of "this" within a function and to pass arguments to the function.
+
+    - "call": Invokes a function with a specified "this" value and arguments passed individually.
+    - "bind": Creates a new function with a specified "this" value and any initial arguments (returns a new function).
+    - "apply": Invokes a function with a specified "this" value and an array or array-like object of arguments.
+    
+    These methods are used for controlling function context and parameters.`,
+  },
+  {
+    id: 44,
+    question: "what is memorization?",
+    answer: `Memoization is a programming technique used to optimize the execution of functions by caching the results of expensive function calls and returning the cached result when the same inputs occur again. This can significantly improve performance for functions that are called with the same inputs multiple times.`,
+  },
+  {
+    id: 45,
+    question: "what is spread opreators and rest opreators",
+    answer: `The spread operator ("...") and the rest operator ("...") are two related concepts in JavaScript used for working with arrays and function arguments.
+
+    1. **Spread Operator ("..."):**
+       - In arrays, it's used to spread the elements of an array into another array or as function arguments.
+       - Example: "const newArray = [...oldArray, newItem];"
+       - Example: "Math.max(...numbers);" (passing array elements as arguments)
+    
+    2. **Rest Operator ("..."):**
+       - In function parameters, it's used to gather remaining arguments into an array.
+       - Example: "function example(a, b, ...rest) { /* rest is an array of additional arguments */ }"
+    
+    The spread operator expands elements, while the rest operator collects elements into an array.`,
+  },
+  {
+    id: 46,
+    question: "what is one way data binding?",
+    answer: `One-way data binding is a concept in web development frameworks where data flows only in a single direction: from the data source (usually the model) to the UI elements (usually the view). Changes in the data source automatically update the UI, but changes in the UI do not affect the data source directly. This approach simplifies the management of data flow and reduces the risk of unexpected changes in the application's state. `,
+  },
+  {
+    id: 47,
+    question: "how we can share data to another component in react",
+    answer: `In React, you can share data between components using several methods:
+
+    1. **Props (Properties):** Pass data from parent to child components by setting attributes in the JSX.
+    
+    2. **State Lifting:** Share data between sibling components by lifting the shared state to a common ancestor component.
+    
+    3. **Context API:** Use the "Context" API to create a shared data store that can be accessed by any component within a specific context.
+    
+    4. **Redux or MobX:** Implement state management libraries to create a global store for sharing data across components.
+    
+    5. **Hooks (useContext, useReducer):** Use React hooks like "useContext" and "useReducer" to manage and share state more effectively.
+    
+    6. **Event Emitter Libraries:** Utilize libraries like "mitt" or custom event emitters to publish and subscribe to events between components.
+    
+    7. **Server-Side Data:** Fetch data from a server and pass it as props to the relevant components.
+    
+    The choice of method depends on your application's architecture and the complexity of the data-sharing requirements.`,
+  },
+  {
+    id: 48,
+    question: "how  does redux work?",
+    answer: `Redux is a predictable state management library for JavaScript applications, commonly used with frameworks like React. It follows a unidirectional data flow pattern, ensuring a single source of truth for application state.
+
+    Here's a simplified overview of how Redux works:
+    
+    1. **Store:** The application's entire state is stored in a single JavaScript object called the "store."
+    
+    2. **Actions:** When something happens in the application (like a button click), you create an action—a plain JavaScript object that describes what happened. Actions have a type and optional payload (data).
+    
+    3. **Reducers:** Reducers are pure functions that specify how the application's state changes in response to actions. Each reducer handles a specific part of the state and returns the updated state.
+    
+    4. **Dispatch:** You dispatch actions to the Redux store using the "dispatch" function. This triggers the reducers to calculate the new state based on the current state and the action.
+    
+    5. **State Update:** The new state is calculated by combining the current state and the changes made by the reducers. Redux ensures immutability—the state is not modified, but a new state object is created.
+    
+    6. **Subscription:** Components can subscribe to changes in the Redux store. When the state changes, these components are notified and re-rendered with the updated data.
+    
+    This flow ensures that changes to the state are predictable, controlled, and traceable. It helps manage complex state logic, enables time-travel debugging, and enhances application maintainability.`,
+  },
+  {
+    id: 49,
     question: "",
     answer: ``,
   },
   {
-    id: 44,
+    id: 50,
     question: "",
     answer: ``,
   },

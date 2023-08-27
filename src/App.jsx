@@ -16,7 +16,7 @@ const App = () => {
           <div className="container mx-auto my-5">
             <div className="flex flex-col items-start gap-5">
               {QAs.map((qa, index) => (
-                <div key={qa.id}>
+                <div key={qa.id} className="border-b-black border border-x-0 border-t-0 pb-5 w-full">
                   <div className="flex items-start gap-5">
                     <div className="">{index}.</div>
                     <div className="">
