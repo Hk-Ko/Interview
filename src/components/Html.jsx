@@ -317,11 +317,81 @@ export const QAs = [
   },
   {
     id: 49,
+    question: "What is set time out?",
+    answer: `setTimeout is a built-in JavaScript function that allows you to delay the execution of a specified function by a specified number of milliseconds. It's often used to introduce a delay before running a piece of code or a function.`,
+  },
+  {
+    id: 50,
+    question: "What is set interval?",
+    answer: `setInterval is a built-in JavaScript function that repeatedly calls a specified function with a fixed time delay between each call. It's used to create periodic execution of code.`,
+  },
+  {
+    id: 51,
+    question: "what is difference between setTimeout and setInterval?",
+    answer: `The main difference between "setTimeout" and "setInterval" is in how they control the timing of function execution:
+
+    1. **"setTimeout":**
+       - Executes a function once, after a specified delay.
+       - After the delay, the function is executed only once.
+       - Example: "setTimeout(callback, delay);"
+    
+    2. **"setInterval":**
+       - Repeatedly executes a function with a fixed time delay between each execution.
+       - Creates a continuous loop of function execution.
+       - Example: "setInterval(callback, delay);"
+    
+    In summary, "setTimeout" is used to delay the execution of a function by a specific time, running it once. "setInterval" is used to repeatedly execute a function at a fixed interval, creating a continuous loop of execution.`,
+  },
+  {
+    id: 52,
+    question: "What is use state?",
+    answer: `
+    useState is a React hook that allows functional components to manage state. It returns a state variable and a function to update that variable. When the state variable is updated using the update function, the component re-renders with the new state.`,
+  },
+  {
+    id: 53,
+    question: "What is use effect?",
+    answer: `useEffect is a React hook that allows you to perform side effects in functional components. Side effects include things like data fetching, DOM manipulation, or subscribing to events. useEffect runs after every render and provides a way to manage these side effects in a declarative and controlled manner.`,
+  },
+  {
+    id: 54,
+    question: "What is use memo?",
+    answer: `useMemo is a React hook that allows you to memoize the result of a computation, preventing unnecessary recalculations. It's used to optimize performance by avoiding redundant calculations for expensive operations.`,
+  },
+  {
+    id: 55,
+    question: "What is higher order components?",
+    answer: `A Higher-Order Component (HOC) is an advanced pattern in React where a function takes a component and returns a new component with additional props or behaviors. HOCs are used to share code, reuse component logic, and enhance component functionality in a reusable and modular way.`,
+  },
+  {
+    id: 56,
+    question: "What is middleware?",
+    answer: `Middleware is a concept commonly used in software development, particularly in web development frameworks, to handle requests and responses in a flexible and modular way. In the context of frameworks like Express (Node.js) or Redux (JavaScript), middleware functions are placed in between the incoming request and the final response, allowing for various tasks to be performed before or after the core logic.
+
+    For example:
+    
+    - In web development, middleware can perform tasks like authentication, logging, error handling, and more.
+    - In Redux, middleware intercepts dispatched actions, allowing you to modify, log, or dispatch additional actions before they reach the reducers.
+    
+    Middleware provides a way to separate concerns, reuse code, and manage cross-cutting concerns in a clean and organized manner.`,
+  },
+  {
+    id: 57,
     question: "",
     answer: ``,
   },
   {
-    id: 50,
+    id: 58,
+    question: "",
+    answer: ``,
+  },
+  {
+    id: 59,
+    question: "",
+    answer: ``,
+  },
+  {
+    id: 60,
     question: "",
     answer: ``,
   },
