@@ -154,3 +154,78 @@ export const QAs = [
     answer: `The real DOM represents the actual structure of a web page, while the virtual DOM is a lightweight copy that React uses to improve efficiency and update only the necessary parts of the real DOM.`,
   },
 ];
+
+export const htmlQAs = [
+  {
+    id: 1,
+    question:
+      "Describe the difference between `<script>`, `<script async>` and `<script defer>`?",
+    answer:
+      "- `<script>`: It blocks HTML parsing and executes the script before rendering. - `<script async>`: It loads the script asynchronously and doesn't block parsing, allowing rendering to continue while the script loads.- `<script defer>`: It also loads the script asynchronously but ensures it only executes after HTML parsing is complete.",
+  },
+  {
+    id: 2,
+    question:
+      "Describe the difference between a cookie, `sessionStorage` and `localStorage`?",
+    answer:
+      "Cookie: Small data stored in the user's browser, sent with every HTTP request, often used for tracking and maintaining user state but limited in size (around 4KB)." +
+      "sessionStorage: Data storage limited to a single session, data is lost when the session ends (e.g., when the browser is closed)." +
+      "localStorage: Persistent data storage with no expiration, data remains even after the browser is closed, and has a larger storage capacity (around 5-10MB).",
+  },
+  {
+    id: 3,
+    question:
+      "Why is it generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>`?",
+    answer:
+      "It's generally a good idea to position CSS `<link>`s between `<head></head>` and JS `<script>`s just before `</body>` to prioritize faster loading of essential page content, ensuring that styles load before rendering and scripts load after the page structure.",
+  },
+  {
+    id: 4,
+    question: "Describe event bubbling.",
+    answer:
+      "Event bubbling is a propagation mechanism in which an event starts from the target element and moves up through its parent elements in the DOM tree. It allows multiple elements to respond to the same event, with the outermost parent handling it first.",
+  },
+  {
+    id: 5,
+    question: "Explain event delegation?",
+    answer:
+      "Event delegation is a JavaScript technique where you attach a single event listener to a parent element to manage events for its child elements. This improves efficiency and reduces memory usage when handling events on multiple elements. The event bubbles up to the parent, where you can identify the specific child element that triggered the event.",
+  },
+  {
+    id: 6,
+    question: `What kind of things must you be wary of when designing or developing for multilingual sites?
+    `,
+    answer: `Consider text expansion, character encoding, cultural sensitivity, translation accuracy, language switching, SEO Considerations, performance, and content updates when designing multilingual sites.`,
+  },
+  {
+    id: 7,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 8,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 9,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 10,
+    question: "",
+    answer: "",
+  },
+  {
+    id: 11,
+    question: "",
+    answer: "",
+  },
+
+  {
+    id: 12,
+    question: "",
+    answer: "",
+  },
+];
