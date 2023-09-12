@@ -1,4 +1,3 @@
-import React from "react";
 import { QAs, htmlQAs } from "./Components/Html";
 
 const App = () => {
